@@ -1,0 +1,7 @@
+/*
+ * Services
+ */
+
+    #services > .container > .row > div > div.service-box {
+        padding: 30px;
+    }
