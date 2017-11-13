@@ -16,3 +16,14 @@
     #services > .container > .row > div > div.service-box {
         padding: 30px;
     }
+
+/*
+ * Bibliografía
+ */
+
+    #bibliography ul {
+        padding-left: 0 !important;
+    }
+    #bibliography ul li {
+        list-style-type: none;
+    }
