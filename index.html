@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Domótica</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,6 +45,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#arquitectura">Arquitectura</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Galería</a>
@@ -186,6 +189,48 @@
       </div>
     </section>
 
+    <section class="bg-dark text-white" id="arquitectura">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Arquitectura</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mx-auto text-center">
+      <p class="text-faded mb-4">La Arquitectura de los sistemas de domótica hace referencia a la estructura de su red. La clasificación se realiza en base de donde reside la “inteligencia” del sistema domótico. Las principales arquitecturas son:</p>
+      <h4 class="section-heading">Arquitectura Centralizada</h4>
+      <p class="text-faded mb-4">En un sistema de domótica de arquitectura centralizada, un controlador centralizado, envía la información a los actuadores e interfaces según el programa, la configuración y la información que recibe de los sensores, sistemas interconectados y usuarios.</p>
+      <p class="text-faded mb-4">PROS:</p>
+      <p class="text-faded mb-4">La gran característica de este tipos de sistemas es su gran potencia e inteligencia. Ya que suele ir administrada por procesadores muy potentes, ideal para integraciones de gran complejidad y donde tenemos que convivir con diferentes sistemas donde tendremos que procesar gran cantidad de información a gran velocidad. Este tipo de sistemas son los favoritos de los grandes integradores por su versatilidad a la hora de integrar y flexibilidad de programación haciendo posible los deseos de los clientes más exigentes.</p>
+      <p class="text-faded mb-4">CONTRAS:</p>
+      <p class="text-faded mb-4">Al ser un sistema centralizado toda la responsabilidad del sistema recae en la Master, en cuya falta todo deja de funcionar. Pero este es un aspecto que no ha de abrumarnos, por que este mismo problema lo tienen también los sistemas distribuidos, por que si se le cae la fuente de alimentación que alimentan al bus tienen el mismo problema, se cae todo el sistema.</p>
+      <p class="text-faded mb-4">MARCAS Y PROTOCOLOS:</p>
+      <p class="text-faded mb-4">Esta arquitectura es la más utilizada por los sistemas propietarios donde las marcas desarrollan sus propios protocolos y donde desarrollan los últimos avances a gran velocidad sin ataduras de grandes alianzas. Son grandes marcas como Vantage, AMX, RTI, Crestron, Control4, Savant, etc.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/central.jpg" alt="">
+      <p/><h4 class="section-heading">Arquitectura Desentralizada</h4>
+      <p class="text-faded mb-4">En un sistema de domótica de Arquitectura Descentralizada, hay varios controladores, interconectados por un bus, que envía información entre ellos y a los actuadotes e interfaces conectados a los controladores, según el programa, la configuración y la información que recibe de los sensores, sistemas interconectados y usuarios. </p>
+      <p class="text-faded mb-4">PROS:</p>
+      <p class="text-faded mb-4">Entre sus ventajas destaca la posibilidad de hacer un rediseño de la red, tienen un reducido cableado, se puede ampliar fácilmente y ofrece una gran seguridad de funcionamiento.</p>
+      <p class="text-faded mb-4">CONTRAS:</p>
+      <p class="text-faded mb-4">Los puntos en contra son que sus elementos de red no son universales y hay cierta limitación, reducida ampliación y requiere de programación.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/desentralizada.jpg" alt="">
+      <p/><h4 class="section-heading">Arquitectura Distribuida</h4>
+      <p class="text-faded mb-4">En un sistema de domótica de arquitectura distribuida, cada sensor y actuador es también un controlador capaz de actuar y enviar información al sistema según el programa, la configuración, la información que capta por si mismo y la que recibe de los otros dispositivos del sistema.</p>
+      <p class="text-faded mb-4">PROS:</p>
+      <p class="text-faded mb-4">La gran característica de este sistema es que cada dispositivo tiene una autonomía propia, lo cual le proporciona una gran seguridad al sistema, coloquialmente diríamos que hacemos un reparto de responsabilidad, y pudiendo caerse partes del sistema y seguir funcionando otras. Otro gran ventaja de estos sistemas es que son ideales para reformas, ya que por su tipo de arquitectura podemos distribuir la instalación no estando obligados a llevar todo el cableado a un cuadro o rack electrico, las marcas que lo fabrican suelen tener muchas buenas soluciones para ello.</p>
+      <p class="text-faded mb-4">CONTRAS:</p>
+      <p class="text-faded mb-4">Es que al tener la inteligencia repartida por pequeños dispositivos en pequeños procesadores que sólo acometen sus pequeñas funciones en su programa de aplicación, no podemos obtener gran potencia del sistema, y para cualquier cosa de una muy simple lógica, como por ejemplo un reloj, operaciones lógicos,etc., tendremos que comprar módulos para ello. También al estar preprogramados para funciones especificas no suelen ser demasiado flexible a la hora de programar.</p>
+      <p class="text-faded mb-4">MARCAS Y PROTOCOLOS:</p>
+      <p class="text-faded mb-4">Hay que decir que este tipo de arquitectura es la utilizada por excelencia por los sistemas estandar, aunque también la utilizan muchos sistemas propietarios.Un ejemplo de marcas o protocolos que utilizan esta arquitectura son: Knx, Lonworks, Dynalite, Enocean, Hdl, etc.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/distribuida.jpg" alt="">
+      <p/><h4 class="section-heading">Arquitectura Hibrida ó Mixta</h4>
+      <p class="text-faded mb-4">En un sistema de domótica de arquitectura híbrida (también denominado arquitectura mixta) se combinan las arquitecturas de los sistemas centralizadas, descentralizadas y distribuidas. A la vez que puede disponer de un controlador central o varios controladores descentralizados, los dispositivos de interfaces, sensores y actuadores pueden también ser controladores (como en un sistema “distribuido”) y procesar la información según el programa, la configuración, la información que capta por si mismo, y tanto actuar como enviarla a otros dispositivos de la red, sin que necesariamente pasa por otro controlador.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/hibrida.jpg" alt="">
+     </div>
+    </section>
+
     <section id="portfolio">
       <div class="container">
         <div class="row">
@@ -300,10 +345,24 @@
           </div>
         </div>
       </div>
-      <div class="container text-center">
+      <div class="col-lg-8 mx-auto text-center">
+      <h4 class="section-heading">Dispositivos Wi-FI</h4>
+      <p class="text-faded mb-4">Funcionan conectandolos a una red Wi-fi</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/wifi.png" alt="">
+      <p/><h4 class="section-heading">Controladores</h4>
+      <p class="text-faded mb-4">Los Controladores son el cerebro de la casa inteligente. Gestionan los dispositivos del Sistema e integran productos de otros fabricantes.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/controladores.png" alt="">
+      <p/><h4 class="section-heading">Nexos</h4>
+      <p class="text-faded mb-4">Son el nexo entre el Controlador y los artefactos de tu hogar. Permiten accionar sistemas de iluminación, cortinas y pequeños motores, sistemas de climatización, alarmas de seguridad, etc.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/nexos.png" alt="">
+      <p/><h4 class="section-heading">Integrados</h4>
+      <p class="text-faded mb-4">Productos integrados IP / WiFi y ZigBee de otros fabricantes. No requieren ninguna otra conexión y pueden ser utilizados individualmente.</p>
+      <img class="img-fluid" src="img/portfolio/fullsize/integrados.png" alt="">
+    </div>
+<!--      <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
         <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
-      </div>
+      </div>-->
     </section>
 
     <section id="software">
